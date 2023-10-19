@@ -1,0 +1,32 @@
+body {
+    --blue: #3498db;
+    --red: #e74c3c;
+    background: linear-gradient(180deg, var(--blue), var(--red));
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 20px 80px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 50px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
